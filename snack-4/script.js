@@ -10,8 +10,8 @@ const posts = [
 
 // Utilizzo il metodo Map
 
-const postsAuthor = posts.map((writer) => {
-  return writer.author
+const postsAuthor = posts.map((element) => {
+  return element.author
 })
 
 console.log(postsAuthor);
