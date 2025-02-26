@@ -21,3 +21,11 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+// Utilizzo il metodo Find
+
+const secondStudent = students.find((student) => {
+  return student.id === 1
+})
+
+console.log(secondStudent.class);
