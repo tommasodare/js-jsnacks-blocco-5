@@ -15,11 +15,13 @@ const zucchine = [
 
 // Devo utilizzare il metodo Filter
 
-const firstArr = zucchine.filter((element) => {
+/* const firstArr = zucchine.filter((element) => {
   if (element.length > 15) {
     return true 
   }
-})
+}) */
+
+const firstArr = zucchine.filter((element) => element.length > 15) // Versione abbreviata
 
 const secondArr = zucchine.filter((element) => {
   if (element.length < 15) {

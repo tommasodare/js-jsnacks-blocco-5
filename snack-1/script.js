@@ -16,8 +16,17 @@ names.forEach((element) => {
 
 // 4. Utilizzo il metodo Map
 
-const newNams = names.map((element) => {
+const newNames = names.map((element) => {
     return element
 })
 
-console.log(newNams);
+console.log(newNames);
+
+// Utilizzo un ciclo For
+
+for (let index = 0; index < names.length; index++) {
+    const thisName = names[index];
+    console.log(thisName);
+}
+
+console.log(names);
